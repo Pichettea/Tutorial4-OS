@@ -1,3 +1,11 @@
+/*
+ * Tutorial 4 Jeopardy Project 
+ * Group 7
+ * Alexy Pichette (100822470)
+ *
+ *
+ *
+ */
 #include <stdio.h>
 #include <string.h>
 #include "players.h"
