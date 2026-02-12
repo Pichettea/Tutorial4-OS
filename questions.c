@@ -1,7 +1,15 @@
+/*
+ * Tutorial 4 Jeopardy Project 
+ * Group 7
+ * Alexy Pichette (100822470)
+ *
+ *
+ *
+ */
 #include <stdio.h>
 #include <string.h>
 #include <stdbool.h>
-#include <strings.h>   // for strcasecmp
+#include <strings.h>   
 #include "questions.h"
 
 // 0 = not answered, 1 = answered
@@ -59,7 +67,7 @@ static const char *questions[NUM_CATEGORIES][NUM_VALUES] = {
     }
 };
 
-// Answers (what the user should type after 'Who is' or 'What is')
+// Answers 
 static const char *answers[NUM_CATEGORIES][NUM_VALUES] = {
     // History
     {
