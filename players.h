@@ -1,0 +1,17 @@
+#ifndef PLAYERS_H_
+#define PLAYERS_H_
+
+#include <stdbool.h>
+
+#define MAX_LEN 256
+
+typedef struct {
+    char name[MAX_LEN];
+    int score;
+} player;
+
+bool player_exists(player *players, int num_players, const char *name);
+void update_score(player *players, int num_players, const char *name, int points);
+void highest_score(player *players, int num_players);
+
+#endif
